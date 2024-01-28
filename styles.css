@@ -35,5 +35,117 @@ header {
     padding: 1rem;
     margin-bottom: 1rem;
     text-align: center;
+    color: black;
 }
+
+
+ul {
+    list-style: none;
+    margin-left: 10rem;
+    margin-top: 1.7rem;
+    padding: 0;
+    width: 7rem;
+    
+}
+
+
+li{ 
+    display: block;
+    text-align: right;
+    margin: 1rem;
+    text-decoration: none;
+    color: teal;
+    width: 6rem;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+main{
+    float: left;
+    margin-right: 10rem;
+    margin-left: 20rem;
+    margin-top: -7rem;
+    float: none;
+}
+
+
+.img {
+    float: left;
+    width: 10rem;
+    height: 8rem;
+    margin-right: 1rem;
+  
+    
+}
+
+h2 {
+    margin-top: 2.2rem;
+}
+
+
+
+footer p{
+    text-align: center;
+    margin-top: 20rem;
+    padding: 14px;
+    background-color: teal;
+    color: white;
+    
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        display: inline-flex;
+        margin-left: .2rem;
+        margin-bottom: -1rem;
+        margin-top: -1rem;
+        width: 25rem;
+    }
+
+    ul li{
+        padding: .7rem;
+        width: auto;
+        margin-right: .3rem;
  
+    }
+
+    li:not(:last-child){
+        border-right: .7px solid lightgrey;
+        
+    }
+    
+    main {
+        margin: 1rem;
+    }
+
+}
+
+
+ 
+
+  
+
+
+
+
+   
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
